@@ -645,4 +645,28 @@ img {
 /* 各コンテンツ */
 
 
+/* ポイント用 */
 
+.point {
+  position: relative;
+  padding: 1rem 2rem;
+  text-align: center;
+  color: #22ac38;
+  border-radius: 0 10px 10px 10px;
+  background: #e3f5d8;
+}
+
+
+.point:before {
+  font-size: 15px;
+  font-size: 1.5rem;
+  position: absolute;
+  top: -24px;
+  left: 0;
+  height: 24px;
+  padding: 0 1em;
+  content: '\POINT';
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+  background: #22ac38;
+}
