@@ -267,9 +267,14 @@ img {
 }
 
 
+.contents-title {
+  color:blue;
+}
+
 
 /* 下記追記 */
 
+/*
 .contents-title h1 {
   position: relative;
   background: #ffd98a;
@@ -300,3 +305,4 @@ img {
   border: solid 3px white; 
   border-radius: 50%;
 }
+*/
