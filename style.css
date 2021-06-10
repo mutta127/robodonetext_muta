@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-body {
+
+ body {
 background-color: #ffffff;
 }
 
@@ -232,6 +233,7 @@ img {
   border-right: 22px solid #e0ffff;
 }
 
+
 /*吹き出し（ロボにゃん）*/
 .says_r {
   font-weight: bold;
@@ -266,20 +268,18 @@ img {
 
 
 
-
-
 /* 下記追記 */
 
-.contents-title {
+misson .contents-title {
   position: relative;
   background: #ffd98a;
   padding: 2px 5px 2px 25px;
-  font-size: 20px;
+  font-size: 100px;
   color: #474747;
   border-radius: 0 10px 10px 0;
 }
 
-.contents-title:before {
+misson .contents-title:before {
   font-family: "Font Awesome 5 Free";
   content: "\f135";
   display: inline-block;
