@@ -32,10 +32,11 @@ h1.test2 {
   border-left: solid 5px #ffaf58;/*左線（実線 太さ 色）*/
 }
 
+
 h1.test3 {
   position: relative;
   padding: 0.5em;
-  background: #a6d3c8;
+  background: #ffac2d;
   color: white;
 }
 
