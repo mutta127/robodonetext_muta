@@ -647,7 +647,7 @@ img {
 
 /* ポイント用 */
 
-.point {
+.r-point {
   position: relative;
   padding: 1rem 2rem;
   text-align: center;
@@ -657,7 +657,7 @@ img {
 }
 
 
-.point:before {
+.r-point:before {
   font-size: 15px;
   font-size: 1.5rem;
   position: absolute;
