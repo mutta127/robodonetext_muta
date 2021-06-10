@@ -270,7 +270,7 @@ img {
 
 /* 下記追記 */
 
-.contents-title {
+.contents-title h1 {
   position: relative;
   background: #ffd98a;
   padding: 2px 5px 2px 25px;
@@ -279,7 +279,7 @@ img {
   border-radius: 0 10px 10px 0;
 }
 
-.contents-title:before {
+.contents-title:before h1 {
   font-family: "Font Awesome 5 Free";
   content: "\f135";
   display: inline-block;
