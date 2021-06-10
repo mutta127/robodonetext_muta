@@ -40,12 +40,9 @@ h1.test3 {
   position: relative;
   padding: 0.5em;
   color: white;
-　background: #FFAC2D;
+  background-color: #ffac2d;
 }
 
-/* h1.starter-tile {
-  background: #ff91aa;
-} */
 
 
 h1.test3::before {
