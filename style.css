@@ -268,33 +268,36 @@ img {
 
 
 
-.contents-title h1 {
+/* 追記 */
+
+.contents-title {
   position: relative;
-  background: #ffd98a;
-  padding: 2px 5px 2px 25px;
-  font-size: 20px;
-  color: #474747;
-  border-radius: 0 10px 10px 0;
+  overflow: hidden;
+  padding: 1.5rem 2rem 1.5rem 130px;
+  border: 2px solid #000;
 }
 
-.contents-title h1 :before {
-  font-family: "Font Awesome 5 Free";
-  content: "\f135";
-  display: inline-block;
-  line-height: 40px;
+.contents.title :before {
   position: absolute;
-  padding: 0em;
-  color: white;
-  background: #ffa337;
-  font-weight: 900;
-  width: 40px;
-  text-align: center;
-  height: 40px;
-  line-height: 40px;
-  left: -1.35em;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  border: solid 3px white; 
-  border-radius: 50%;
+  top: -150%;
+  left: -100px;
+  width: 200px;
+  height: 300%;
+  content: '';
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+  background: #000;
+}
+
+h2 span {
+  font-size: 40px;
+  font-size: 4rem;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: block;
+  padding-top: 3px;
+  padding-left: 16px;
+  color: #fff;
 }
