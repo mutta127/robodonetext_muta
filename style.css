@@ -33,12 +33,19 @@ h1.test2 {
   border-left: solid 5px #ffaf58;/*左線（実線 太さ 色）*/
 }
 
+
+
+
 h1.test3 {
   position: relative;
   padding: 0.5em;
-  background: #a6d3c8;
   color: white;
 }
+
+h1.starter-tile {
+  background: #ff91aa;
+}
+
 
 h1.test3::before {
   position: absolute;
@@ -49,6 +56,11 @@ h1.test3::before {
   border-bottom: solid 15px transparent;
   border-right: solid 20px rgb(149, 158, 155);
 }
+
+
+
+
+
 
 p.font1{
   font-family: Meiryo;
@@ -264,40 +276,4 @@ img {
 .balloon_r .says_r:after {
   right: -26px;
   border-left: 22px solid #ffe4e1;
-}
-
-
-
-/* 追記 */
-
-.contents-title {
-  position: relative;
-  overflow: hidden;
-  padding: 1.5rem 2rem 1.5rem 130px;
-  border: 2px solid #000;
-}
-
-.contents.title :before {
-  position: absolute;
-  top: -150%;
-  left: -100px;
-  width: 200px;
-  height: 300%;
-  content: '';
-  -webkit-transform: rotate(25deg);
-  transform: rotate(25deg);
-  background: #000;
-}
-
-.contents-title span {
-  font-size: 40px;
-  font-size: 4rem;
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  display: block;
-  padding-top: 3px;
-  padding-left: 16px;
-  color: #fff;
 }
