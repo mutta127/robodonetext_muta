@@ -36,6 +36,7 @@ h1.test2 {
 h1.test3 {
   position: relative;
   padding: 0.5em;
+  margin: 20 auto;
   background: #ffac2d;
   color: white;
 }
@@ -638,3 +639,9 @@ img {
   right: -26px;
   border-left: 22px solid #ffe4e1;
 }
+
+
+/* 各コンテンツ */
+
+
+
