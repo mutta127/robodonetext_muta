@@ -561,7 +561,7 @@ summary::-webkit-details-marker {
   justify-content:flex-end;
 }
 .faceicon img{
-  width: 80px; /*任意のサイズ*/
+  width: 100px; /*任意のサイズ*/
   height: auto;
 }
 .balloon_r .faceicon{
