@@ -543,9 +543,7 @@ summary::-webkit-details-marker {
  color: #777777; /* 文字色 */
  background-color: #fff; /* 背景色 */
  border: 4px solid #f6bfbc; /*線の太さ・色*/
- border-radius: 3em .8em 3em .7em/.9em 2em .8em 3em;
  font-size: 16px;
-
 }
 
 /*吹き出し（ねずボット）*/
@@ -557,6 +555,7 @@ summary::-webkit-details-marker {
   align-items: flex-start; /*縦位置を上揃え*/
 /*   align-items: center; */ /*縦位置を真ん中揃え*/
 }
+
 .balloon_r{
   justify-content:flex-end;
 }
