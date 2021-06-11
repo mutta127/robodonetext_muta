@@ -606,7 +606,7 @@ img {
 }
 .balloon_l .says_l:after {
   left: -26px;
-  border-right: 22px solid #e0ffff;
+  border-right: 22px solid #CCEFFF;
 }
 
 /*吹き出し（ロボにゃん）*/
