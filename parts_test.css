@@ -62,7 +62,8 @@
 }
 .says_l {
   font-weight: bold;
-  max-width:500px; /*最大幅は任意*/
+  max-width:100%; /*最大幅は任意*/
+  min-width:100%;
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -114,6 +115,7 @@ img {
 .says_r {
   font-weight: bold;
   max-width:500px; /*最大幅は任意*/
+  min-width:100%;
   display: flex;
   flex-wrap: wrap;
   position: relative;
