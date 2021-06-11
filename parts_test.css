@@ -29,23 +29,28 @@
  font-size: 16px;
 }
 
-/*吹き出し（ねずボット）*/
+/*吹き出し（共通パーツ）*/
+
 .balloon_l,
 .balloon_r{
-  margin: 20px 0;
+  margin: 5px 0;
   display:flex;
   justify-content: flex-start;
   align-items: flex-start; /*縦位置を上揃え*/
 /*   align-items: center; */ /*縦位置を真ん中揃え*/
 }
 
-.balloon_r{
-  justify-content:flex-end;
-}
 .faceicon img{
   width: 100px; /*任意のサイズ*/
   height: auto;
 }
+
+/*吹き出し（ねずボット）*/
+
+.balloon_r{
+  justify-content:flex-end;
+}
+
 .balloon_r .faceicon{
   margin-left:25px;
 }
