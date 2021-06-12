@@ -41,7 +41,7 @@
 }
 
 .faceicon img{
-  width: 100px; /*任意のサイズ*/
+  max-width: 100px; /*任意のサイズ*/
   height: auto;
 }
 
