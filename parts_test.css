@@ -41,7 +41,7 @@
 }
 
 .faceicon {
-  width:15%;
+  width:12%;
 }
 
 .faceicon img{
@@ -71,7 +71,7 @@
 
 .says_l {
   font-weight: bold;
-  width:70%; /*最大幅は任意*/
+  width:76%; /*最大幅は任意*/
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -107,7 +107,7 @@
 /*吹き出し（ロボにゃん）*/
 .says_r {
   font-weight: bold;
-  width:70%; /*最大幅は任意*/
+  width:76%; /*最大幅は任意*/
   display: flex;
   flex-wrap: wrap;
   position: relative;
