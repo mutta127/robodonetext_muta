@@ -41,7 +41,7 @@
 }
 
 .faceicon img{
-  width: 100px; /*任意のサイズ*/
+  width: 20%; /*任意のサイズ*/
   height: auto;
 }
 
@@ -62,7 +62,7 @@
 }
 .says_l {
   font-weight: bold;
-  width:500px; /*最大幅は任意*/
+  width:75%; /*最大幅は任意*/
   display: flex;
   flex-wrap: wrap;
   position: relative;
