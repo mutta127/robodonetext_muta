@@ -41,9 +41,9 @@
 }
 
 .faceicon img{
-  max-width: 15%; 任意のサイズ
+  max-width: 100px; 任意のサイズ
   height: auto;
-　object-fit: contain;
+  width: auto;
 }
 
 
@@ -97,7 +97,6 @@
   left: -26px;
   border-right: 22px solid #CCEFFF;
 }
-
 
 
 /*吹き出し（ロボにゃん）*/
