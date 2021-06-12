@@ -76,7 +76,6 @@
   box-sizing:border-box;
   margin:0 !important;
   line-height:1.5;
-  border: solid 3px #06B4E8;
 /*   align-items: center; */
 }
 
@@ -97,19 +96,6 @@
 .balloon_l .says_l:after {
   left: -26px;
   border-right: 22px solid #CCEFFF;
-}
-
-
-.says_l:before {
-  content: "";
-  position: absolute;
-  border: 10px solid transparent;
-/*   margin-top:-3px;  */
-}
-
-.balloon_l .says_l:before {
-  left: -26px;
-  border-right: 25px solid #06B4E8;
 }
 
 
