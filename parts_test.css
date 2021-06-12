@@ -64,7 +64,7 @@
 }
 .says_l {
   font-weight: bold;
-  width:85%; /*最大幅は任意*/
+  width:70%; /*最大幅は任意*/
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -115,7 +115,7 @@ img {
 /*吹き出し（ロボにゃん）*/
 .says_r {
   font-weight: bold;
-  width:85%; /*最大幅は任意*/
+  width:70%; /*最大幅は任意*/
   display: flex;
   flex-wrap: wrap;
   position: relative;
