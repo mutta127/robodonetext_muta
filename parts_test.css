@@ -88,17 +88,23 @@ img {
 .says_l p:first-child{
   margin-top:0 !important;
 }
+
 .says_l:after {
   content: "";
   position: absolute;
-  border: 3px solid #555;
+  border: 3px solid transparent;
 /*   margin-top:-3px;  */
 }
+
 .balloon_l .says_l:after {
   left: -26px;
   border-right: 22px solid #CCEFFF;
 }
 
+.balloon_l .says_l:after {
+  left: -26px;
+  border-right: 23px solid #555;
+}
 
 
 /*吹き出し（ロボにゃん）*/
