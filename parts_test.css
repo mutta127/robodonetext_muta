@@ -75,7 +75,7 @@
   box-sizing:border-box;
   margin:0 !important;
   line-height:1.5;
-  border: solid 3px #555;
+  border: solid 3px #4169e1;
 /*   align-items: center; */
 }
 img {
@@ -103,7 +103,7 @@ img {
 
 .balloon_l .says_l:after {
   left: -26px;
-  border-right: 23px solid #555;
+  border-right: 23px solid #4169e1;
 }
 
 
