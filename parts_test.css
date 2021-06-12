@@ -74,7 +74,7 @@
   box-sizing:border-box;
   margin:0 !important;
   line-height:1.5;
-
+  border: solid 3px #555;
 /*   align-items: center; */
 }
 img {
@@ -90,24 +90,12 @@ img {
 .says_l:after {
   content: "";
   position: absolute;
-  border: 10px solid transparent;
+  border: 10px solid #555;
 /*   margin-top:-3px;  */
 }
 .balloon_l .says_l:after {
   left: -26px;
   border-right: 22px solid #CCEFFF;
-}
-
-
-.balloon_l .says_l:before{
-    border-color: rgba(255, 124, 92, 0);
-    border-top-width:14px;
-    border-bottom-width:14px;
-    border-left-width:42px;
-    border-right-width:42px;
-    margin-top: -14px;
-    margin-right: 4px;
-    border-right-color:#FF7C5C;
 }
 
 
