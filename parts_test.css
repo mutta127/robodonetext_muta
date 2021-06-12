@@ -41,7 +41,7 @@
 }
 
 .faceicon img{
-/*   max-width: 100%; 任意のサイズ */
+  max-width: 15%; 任意のサイズ
   height: auto;
 　object-fit: contain;
 }
@@ -76,7 +76,7 @@
   box-sizing:border-box;
   margin:0 !important;
   line-height:1.5;
-  border: solid 3px #4169e1;
+  border: solid 3px #06B4E8;
 /*   align-items: center; */
 }
 
@@ -109,8 +109,9 @@
 
 .balloon_l .says_l:before {
   left: -26px;
-  border-right: 25px solid #4169e1;
+  border-right: 25px solid #06B4E8;
 }
+
 
 
 /*吹き出し（ロボにゃん）*/
