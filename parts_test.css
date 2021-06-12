@@ -41,9 +41,8 @@
 }
 
 .faceicon img{
-  max-width: 100%; /*任意のサイズ*/
+/*   max-width: 100%; 任意のサイズ */
   height: auto;
-  width: auto;
 　object-fit: contain;
 }
 
@@ -100,7 +99,7 @@
   border-right: 22px solid #CCEFFF;
 }
 
-.balloon_l .says_l:after {
+.balloon_l .says_l:before {
   left: -26px;
   border-right: 23px solid #4169e1;
 }
