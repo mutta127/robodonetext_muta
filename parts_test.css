@@ -41,17 +41,19 @@
 }
 
 .faceicon img{
-  width: 20%; /*任意のサイズ*/
+  width: 100px; /*任意のサイズ*/
   height: auto;
 }
 
 /*吹き出し（ねずボット）*/
 
 .balloon_r{
+  widht:15%;
   justify-content:flex-end;
 }
 
 .balloon_r .faceicon{
+  widht:15%;
   margin-left:25px;
 }
 .balloon_l .faceicon{
@@ -62,7 +64,7 @@
 }
 .says_l {
   font-weight: bold;
-  width:75%; /*最大幅は任意*/
+  width:85%; /*最大幅は任意*/
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -113,7 +115,7 @@ img {
 /*吹き出し（ロボにゃん）*/
 .says_r {
   font-weight: bold;
-  width:500px; /*最大幅は任意*/
+  width:85%; /*最大幅は任意*/
   display: flex;
   flex-wrap: wrap;
   position: relative;
