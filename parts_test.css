@@ -44,7 +44,9 @@
   max-width: 100%; /*任意のサイズ*/
   height: auto;
   width: auto;
+　object-fit: contain;
 }
+
 
 /*吹き出し（ねずボット）*/
 
@@ -78,10 +80,7 @@
   border: solid 3px #4169e1;
 /*   align-items: center; */
 }
-img {
-	max-width: 100%;
-	height: auto;
-}
+
 .says_l p{
   margin:8px 0 0 !important;
 }
