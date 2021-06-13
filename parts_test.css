@@ -51,7 +51,7 @@
 
 .balloon_l,
 .balloon_r{
-  margin: 5px 0;
+  margin: 3px 0;
   display:flex;
   justify-content: flex-start;
   align-items: flex-start; /*縦位置を上揃え*/
