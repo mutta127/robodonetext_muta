@@ -43,14 +43,14 @@
  color: #333333; /* 文字色 */
  background-color: #fff; /* 背景色 */
  border: 4px solid #777777; /*線の太さ・色*/
- align-items: center;
+ text-align: center;
 }
 
 /*吹き出し（共通パーツ）*/
 
 .balloon_l,
 .balloon_r{
-  margin: 3px 0;
+/*   margin: 3px 0; */
   display:flex;
   justify-content: flex-start;
   align-items: flex-start; /*縦位置を上揃え*/
@@ -97,7 +97,7 @@
   border-radius: 12px;
   background: #CCEFFF;/*色は任意*/
   box-sizing:border-box;
-  margin:0 !important;
+  margin:0 0 0 5px !important;
   line-height:1.5;
 /*   align-items: center; */
 }
