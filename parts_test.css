@@ -21,13 +21,13 @@
 
 .slide {
     width: 90%;
+    margin: 20px auto;
 }
 
 .slide img {
     width: 90%;
     height: auto; 
-    margin: 20 auto;
-    padding: 20;
+    padding: 10px;
     border: solid 1px #777777;
     border-radius: 10px;/*角の丸み*/
 }
