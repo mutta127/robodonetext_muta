@@ -21,15 +21,15 @@
 
 .slide {
     width: 90%;
-    margin: 20 auto;
-    padding: 20;
-    border: solid 1px #777777;
-    border-radius: 10px;/*角の丸み*/
 }
 
 .slide img {
     width: 90%;
-    height: auto;    
+    height: auto; 
+    margin: 20 auto;
+    padding: 20;
+    border: solid 1px #777777;
+    border-radius: 10px;/*角の丸み*/
 }
 
 
@@ -44,6 +44,7 @@
  background-color: #fff; /* 背景色 */
  border: 4px solid #777777; /*線の太さ・色*/
  font-size: 16px;
+ align-items: center;
 }
 
 /*吹き出し（共通パーツ）*/
