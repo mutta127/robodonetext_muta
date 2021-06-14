@@ -88,7 +88,7 @@
 
 .says_l {
   font-weight: bold;
-  width:70%; /*最大幅は任意*/
+  width:65%; /*最大幅は任意*/
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -124,7 +124,7 @@
 /*吹き出し（ロボにゃん）*/
 .says_r {
   font-weight: bold;
-  width:70%; /*最大幅は任意*/
+  width:65%; /*最大幅は任意*/
   display: flex;
   flex-wrap: wrap;
   position: relative;
