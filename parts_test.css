@@ -173,9 +173,12 @@
   justify-content: flex-start;
 }
 
+.oneArea .onebox {
+  margin-top:20px;    
+}
+
 .oneArea .onebox:nth-child(even) {
   flex-direction: row-reverse;
-  margin-top: 20px;
 }
 
 .oneArea .onebox .imgArea {
@@ -255,10 +258,10 @@
   }
     
     
- .oneArea .nezubot {
+/*  .oneArea .nezubot {
     margin-top: 20px
   }
-    
+     */
     
     
 }
