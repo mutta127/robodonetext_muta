@@ -187,11 +187,11 @@
 }
 .oneArea .onebox:nth-child(odd) .imgArea img {
   left: 0;
-  padding-right: 30px;
+  padding-right: 50px;
 }
 .oneArea .onebox:nth-child(even) .imgArea img {
   right: 0;
-  padding-left: 30px;
+  padding-left: 50px;
 }
 .oneArea .onebox .fukiArea {
   width: 63%;
