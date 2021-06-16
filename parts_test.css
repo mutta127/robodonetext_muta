@@ -253,6 +253,14 @@
   .oneArea .onebox .fukidasi::before {
     top: 8px;
   }
+    
+    
+ .oneArea .nezubot {
+    margin-top: 20px
+  }
+    
+    
+    
 }
 @media screen and (max-width: 420px) {
   .oneArea {
