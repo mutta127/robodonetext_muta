@@ -36,11 +36,11 @@
 
 h1 {
   border-style: none !important;
-  padding-bottom: none; !important
 }
 
 h1 .title {
   font-size: 1.0em !important;
+  aline-items: center; 
 }
 
 
