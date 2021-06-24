@@ -91,7 +91,7 @@ h4:before {
   background: #FFAC2D;
   border: 3px solid #e88c00;
   border-radius: 5px;
-  padding: 5px;
+  padding: 15px;
   margin: 5px;
   width: 100%;
 }
@@ -101,7 +101,7 @@ h4:before {
   background: #00B4DC;
   border: 3px solid #0085a3;
   border-radius: 5px;
-  padding: 5px;
+  padding: 15px;
   margin: 5px;
   width: 100%;
 }
@@ -111,7 +111,7 @@ h4:before {
   background: #5ABE50;
   border: 3px solid #207018;
   border-radius: 5px;
-  padding: 5px;
+  padding: 15px;
   margin: 5px;
   width: 100%;
   text-align: center;
@@ -122,7 +122,7 @@ h4:before {
   background: #5069BE;
   border: 3px solid #001e85;
   border-radius: 5px;
-  padding: 5px;
+  padding: 15px;
   margin: 5px;
   width: 100%;
 }
