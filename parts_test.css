@@ -3,8 +3,32 @@
 /* 汎用パーツ */
 
 h1 {
-    border-style: none !important;
+  margin-top: 5px;
+  position: relative;
+  padding: 1rem 2rem;
+  text-align: center;
+  color: #FFAC2D;
+  border-radius: 0 10px 10px 10px;
+  background: #ffedd1;
+  width: 324px;
+  border-style: none !important;
 }
+
+h1:before {
+  font-size: 15px;
+  font-size: 1.5rem;
+  position: absolute;
+  top: -24px;
+  left: 0;
+  height: 24px;
+  padding: 0 1em;
+  content: '\ここがポイント！';
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+  background: #FFAC2D;
+}
+
+
 
 .box0 {
     padding: 0.5em 1em;
