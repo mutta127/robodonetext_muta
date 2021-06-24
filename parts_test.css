@@ -36,7 +36,7 @@
 
 h1 {
   border-style: none !important;
-  padding-bottom: .3em;
+  padding-bottom: none; !important
 }
 
 h1 .title {
