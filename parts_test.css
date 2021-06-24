@@ -2,6 +2,12 @@
 
 /* 汎用パーツ */
 
+.markdown-body h1 {
+    padding-bottom: .3em;
+    font-size: 2em;
+    border-bottom: 1px solid #eaecef;
+}
+
 .box0 {
     padding: 0.5em 1em;
     margin: 2em 0;
@@ -31,6 +37,96 @@
     border: solid 3px #777777;
     border-radius: 10px;/*角の丸み*/
 }
+
+
+
+h4 {
+  margin-top: 5px;
+  position: relative;
+  padding: 1rem 2rem;
+  text-align: center;
+  color: #FFAC2D;
+  border-radius: 0 10px 10px 10px;
+  background: #ffedd1;
+  width: 324px;
+}
+
+h4:before {
+  font-size: 15px;
+  font-size: 1.5rem;
+  position: absolute;
+  top: -24px;
+  left: 0;
+  height: 24px;
+  padding: 0 1em;
+  content: '\ここがポイント！';
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+  background: #FFAC2D;
+}
+
+.prestarter {
+  color: white;
+  background: #FF91AA;
+  border: 5px solid #ff6185;
+  border-radius: 5px;
+  margin: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.starter {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background: #FFAC2D;
+  border: 3px solid #e88c00;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+}
+
+.basic {
+  color: white;
+  background: #00B4DC;
+  border: 3px solid #0085a3;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+}
+
+.advance {
+  color: white;
+  background: #5ABE50;
+  border: 3px solid #207018;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.pro {
+  color: white;
+  background: #5069BE;
+  border: 3px solid #001e85;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+}
+
+.master {
+  color: white;
+  background: #6E6E6E;
+  border: 3px solid #404040;
+  border-radius: 5px;
+  margin: 5px;
+  width: 100%;
+}
+
 
 
 
