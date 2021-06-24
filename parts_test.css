@@ -3,9 +3,7 @@
 /* 汎用パーツ */
 
 . h1 {
-    padding-bottom: .3em;
-    font-size: 2em;
-    border-bottom: 1px solid #eaecef;
+    border-style: none !important;
 }
 
 .box0 {
