@@ -2,7 +2,7 @@
 
 /* 汎用パーツ */
 
-.markdown-body h1 {
+. h1 {
     padding-bottom: .3em;
     font-size: 2em;
     border-bottom: 1px solid #eaecef;
