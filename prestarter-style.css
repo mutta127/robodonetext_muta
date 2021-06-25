@@ -45,6 +45,19 @@ h1 .title {
   background: #FF91AA;
 }
 
+.my-orange {color: #ff6185}
+
+.point ul {
+  position: relative;
+}
+
+.point ul li {
+  font-size:2rem;
+  font-weight:bold;
+  line-height: 1.5;
+  padding: 0.5em 0;
+  list-style-type: none!important;/*ポチ消す*/
+}
 
 
 /* ---padding変更箇所--- */
