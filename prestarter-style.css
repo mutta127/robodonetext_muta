@@ -29,7 +29,7 @@ h4 {
   color: #FF91AA;
   border-radius: 0 10px 10px 10px;
   background: #ffd9e1;
-  width: 324px;
+  max-width: 100%;
 }
 
 h4:before {
