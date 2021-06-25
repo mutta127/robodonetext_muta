@@ -25,7 +25,6 @@ h1 .title {
   margin-top: 5px;
   position: relative;
   padding: 1rem 2rem;
-  color: #000;
   border-radius: 0 15px 15px 15px;
   background: #ffd9e1;
   max-width: 70%;
@@ -40,7 +39,6 @@ h1 .title {
   height: 40px;
   padding: 0 1em;
   content: '\ここがポイント！';
-  color: #333333;
   border-radius: 15px 15px 0 0;
   background: #FF91AA;
 }
@@ -50,6 +48,7 @@ h1 .title {
 .point ul {
   padding: 0.5em 1em 0.5em 2.3em;
   position: relative;
+  color: #333333;
 }
 
 .point ul li {
