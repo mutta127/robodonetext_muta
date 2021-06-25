@@ -28,7 +28,7 @@ h1 .title {
   color: #000;
   border-radius: 0 15px 15px 15px;
   background: #ffd9e1;
-  max-width: 100%;
+  max-width: 70%;
 }
 
 .point:before {
@@ -40,7 +40,7 @@ h1 .title {
   height: 40px;
   padding: 0 1em;
   content: '\ここがポイント！';
-  color: #fff;
+  color: #333333;
   border-radius: 15px 15px 0 0;
   background: #FF91AA;
 }
