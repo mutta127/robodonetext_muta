@@ -33,6 +33,7 @@ h1 .title {
 .point:before {
   font-size: 25px;
   font-weight: bold;
+  color: #fff;
   position: absolute;
   top: -40px;
   left: 0;
