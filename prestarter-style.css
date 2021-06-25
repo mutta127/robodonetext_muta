@@ -48,6 +48,7 @@ h1 .title {
 .my-orange {color: #ff6185}
 
 .point ul {
+  padding: 0.5em 1em 0.5em 2.3em;
   position: relative;
 }
 
