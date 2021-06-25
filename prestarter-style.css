@@ -26,7 +26,7 @@ h4 {
   position: relative;
   padding: 1rem 2rem;
   text-align: center;
-  color: #FFAC2D;
+  color: #FF91AA;
   border-radius: 0 10px 10px 10px;
   background: #ffedd1;
   width: 324px;
@@ -136,11 +136,11 @@ h4:before {
     padding: 0;
 }
 
-.my-orange {color: #ffac2c}
+.my-orange {color: #ff6185}
 
 ul.menu {
   border-radius: 30px;
-  background: #fffaf1;
+  background: #FF91AA;
   padding: 0.5em 1em 0.5em 2.3em;
   position: relative;
 }
