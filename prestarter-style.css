@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
-/*-------ハンバーガー用見出し------*/
+
+/*-------プレスタ付け足し項目------*/
+
+
+
+/*---ハンバーガー用見出し---*/
 
 h1 {
   border-style: none !important;
@@ -16,18 +21,19 @@ h1 .title {
   line-height: 1.0em;
 }
 
-/*-------ハンバーガー用見出しここまで-------*/
+/*---ハンバーガー用見出しここまで---*/
 
 
-/*-------ここから岸本-------*/
+
+/*---ポイントBOX---*/
 
 .point {
   margin-top: 5px;
   position: relative;
   padding: 1rem 2rem;
   border-radius: 0 15px 15px 15px;
-  background: #ffd9e1;
-  max-width: 70%;
+  background: #ffd9e1; /*色変更*/
+  max-width: 80%;
   text-align: left;
 }
 
@@ -42,7 +48,7 @@ h1 .title {
   padding: 0 1em;
   content: '\ここがポイント！';
   border-radius: 15px 15px 0 0;
-  background: #FF91AA;
+  background: #FF91AA;/*色変更*/
 }
 
 .my-orange {color: #ff6185}
@@ -60,6 +66,35 @@ h1 .title {
   padding-top: 0.5em;
   list-style-type: none!important;/*ポチ消す*/
 }
+
+/*---ポイントBOXここまで---*/
+
+
+
+/*---ミッションルールBOX---*/
+
+.box_pre {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-size:2rem;
+    font-weight: bold;
+    color: #ff6185;/*文字色*/
+    background: #FFF;
+    border: solid 3px #ff6185;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.box_pre p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*---ミッションルールここまで---*/
+
+
+
+
+/*-------ここから岸本-------*/
+
 
 
 /* ---padding変更箇所--- */
@@ -348,6 +383,7 @@ h2.mission2 span:before {
 h2.mission2 span:after {
   bottom: 15px;
 }
+
 
 .box2 {
     padding: 0.5em 1em;
