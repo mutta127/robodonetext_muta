@@ -28,7 +28,7 @@ h4 {
   text-align: center;
   color: #FF91AA;
   border-radius: 0 10px 10px 10px;
-  background: #ffedd1;
+  background: #ffd9e1;
   width: 324px;
 }
 
@@ -140,7 +140,7 @@ h4:before {
 
 ul.menu {
   border-radius: 30px;
-  background: #FF91AA;
+  background: #ffd9e1;
   padding: 0.5em 1em 0.5em 2.3em;
   position: relative;
 }
